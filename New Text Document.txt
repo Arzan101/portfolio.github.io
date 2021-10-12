@@ -1,0 +1,41 @@
+card of about us
+<!-- <section>
+
+    <div class="container">
+        <div class="content-section">
+         <div class="content">
+            <div class="circle">
+             <h2>Platform </h2> 
+            </div>
+            <p>Our asynchronous knowledge management and collaboration 
+                     offering Arzancode for Teams,is transforming how people work.Where you can Learn from Our developers</p>
+                     <a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_default">
+                        <div class="button btn-abt">
+                            Read more</a>
+                        </div>
+                        <div class="sci-about">
+                            <a href=""><i class="fa fa-facebook-official"></i></a>
+                            <a href=""><i class="fa fa-instagram"></i></a>
+                            <a href=""><i class="fa fa-twitter"></i></a>
+                            <a href=""><i class="fa fa-youtube-play"></i></a>
+                        </div>
+                          
+             
+           <div class="img-section">
+            <img src="/E-Coding-master/img/blcklaptop.jpg" alt="Laptop" class="imgfluid">
+           </div>
+        </div>
+ </section> -->
+
+  <section class="contact" id="contact">
+        <h1 class="text-center">Contact Us</h1>
+        <div class="form">
+            <input class="form-input" type="text" name="name" id="name" placeholder="Enter your Name">
+
+            <input class="form-input" type="text" name="phone" id="phone" placeholder="Enter your Number">
+            <input class="form-input" type="email" name="email" id="email" placeholder="Enter your E-mail">
+            <textarea class="form-input" name="text" id="text" cols="30" rows="10" placeholder="Address"></textarea>
+            <button class="btn btn-dark btn-sm ">Submit</button>
+
+        </div>
+    </section>
