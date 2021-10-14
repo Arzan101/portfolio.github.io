@@ -20,7 +20,6 @@ html{
     margin: 3px;
 }
 .navbar{
-    
     display: flex;
     align-items: center;
     justify-content: left;
@@ -66,6 +65,7 @@ html{
     background:#111;
     background-size: cover;
     background-blend-mode: darken;
+    
 }
 .firstsection{
    height: 100vh;
@@ -80,8 +80,11 @@ html{
     margin: auto;
     height: 75%;
 }
+.section-main{
+    z-index: 0;
+}
 section{
-    z-index: -1;
+    z-index: 0;
     position: relative !important;
     background-color: #111;
     height: 100vh !important;
@@ -91,7 +94,7 @@ section{
     overflow: hidden; 
 }
 section .row{
-    z-index: -1;
+    z-index: 0;
     position: relative;
     display: flex;
     width: 100%;
@@ -102,6 +105,7 @@ section .row{
     transform: rotate(-30deg);
 }
 i{
+    z-index: 0;
     color: rgb(0, 0, 0, 0.5);
     transition: 1s;
     padding: 0 5px;
@@ -109,6 +113,7 @@ i{
     cursor: default;
 }
 i:hover{
+    z-index: 0;
     transition: 0s;
     color: #0f0;
     text-shadow: 0 0 120px #0f0;
@@ -217,7 +222,6 @@ section .row:nth-child(even) div:nth-child(2)
  padding: 8px 20px;
  margin: 7px 3px;
  outline: none;
-
  background: linear-gradient(90deg,#c0c0c0,#697072);   
  border-radius: 8px;
  cursor: pointer;
@@ -324,32 +328,93 @@ font-family: 'Ubuntu', sans-serif;
     margin: 3px 3px;
 }
 .card{
+    font-family: 'Ubuntu', sans-serif;
     display: flex;
     flex-direction: column;
-    z-index: 1000;
+    z-index: 100000;
     align-items: center;
     margin: 10px;
     padding: 20px;
-    width: 100%;
-    max-height: 400px;
+    justify-content: center !important;
+    width: 30% !important;
+    height: 400px !important;
     min-width: 100px;
-    border:2px solid red;
+    
     margin-top: -200px;
+    color: white;
+    box-shadow: 0 0 25px 0 rgba(160, 168, 200, 0.253)!important;
 
 }
+
 .my-img{
+    margin-top: 10px;
+    z-index: 100000;
     width: 100%;
     max-height: 275px;
     margin-bottom: 15px;
     object-fit: contain;
+    border-radius: 25%;
 }
-.about{
-   
-    font-family: 'Ubuntu', sans-serif;
+.btnabt{
+   justify-content: center;
+    align-items: center;
+}
+.btn-abt{
+    padding: 8px 20px;
+    margin: 7px 70px;
+    outline: none;
+    text-decoration: none;
+    background: linear-gradient(90deg,#c0c0c0,#0d0d0e);   
+    border-radius: 35px;
+    cursor: pointer;
+    color: white;
+    justify-content: center;
+    font-size: 20px;
+}
+.btn-abt:hover{
+    background: linear-gradient(90deg,#0f0,#0d0d0e); 
+}
+.btn-abt a{
+    text-decoration: none;
+    align-items: center;
+    color: white;
+    justify-content: center !important;
+}
+.card:hover{
+    background-image: linear-gradient(-45deg, #000000 0%, rgba(174, 179, 174, 0.226) 50%);
+}
+section1{
+    height: 70vh !important;
     width: 100%;
-    min-height: 770px ;
-    background-color: #f6f5f4;
+    display: flex !important;
+    color: #111 !important;
+    overflow: hidden; 
+    background-image: linear-gradient(-45deg, rgba(11, 12, 11, 0.616) 0%, rgba(174, 179, 174, 0.226)50%);
+    justify-content: center !important;
+    align-items: center;
 }
+.abt-title{
+    align-items: center;
+    justify-content: center;
+}
+.card-abt{
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    padding: 20px;
+    margin-top: 40px;
+  
+    justify-content: center !important;
+    width: 30% !important;
+    height: 400px !important;
+    min-width: 100px;
+    color: #111;
+    box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.856)!important;
+    
+}
+
 .container{
     z-index: 100;
     display: flex;
@@ -377,23 +442,6 @@ font-family: 'Ubuntu', sans-serif;
     border-radius: 104px;
 }
 
-
-
-.btn-abt{
-    padding: 8px 20px;
-    margin: 7px 70px;
-    outline: none;
-    text-decoration: none;
-    background-color: black;
-    border-radius: 35px;
-    cursor: pointer;
-    color: white;
-    font-size: 20px;
-}
-.btn-abt a{
-    text-decoration: none;
-    color: white;
-}
 
 .sci-about{
     display:inline-block;
@@ -480,6 +528,7 @@ footer{
     background-color: #111;
     justify-content:space-between;
     flex-wrap: wrap;
+    width: 100%;
 }
 footer .container1{
     justify-content: space-between;

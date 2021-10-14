@@ -38,6 +38,31 @@
     .section{
         flex-direction: column-reverse;
     }
+    section1{
+        height: 100vh !important;
+    }
+    .card{
+        
+        width: 40% !important;
+    }
+    .card{
+        padding-bottom: 52px;
+    }
+    .card h1{
+        padding-bottom: 10px;
+    }
+    .card p{
+        padding-top: 25px;
+    }
+    .card-abt{
+        padding:5%;
+        margin: auto;
+        padding-top: 10%;
+    }
+    .card-abt h1{
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
     .text-big{
         text-align: center;
     }
