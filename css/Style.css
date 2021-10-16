@@ -15,7 +15,7 @@ html{
 }
 .logo img{
     width: 35%;
-    border: 3px solid white;
+  
     border-radius: 50px;
     margin: 3px;
 }
@@ -387,9 +387,9 @@ section1{
     height: 70vh !important;
     width: 100%;
     display: flex !important;
-    color: #111 !important;
+    
     overflow: hidden; 
-    background-image: linear-gradient(-45deg, rgba(11, 12, 11, 0.616) 0%, rgba(174, 179, 174, 0.226)50%);
+  background-color: #111;
     justify-content: center !important;
     align-items: center;
 }
@@ -406,15 +406,28 @@ section1{
     padding: 20px;
     margin-top: 40px;
   
-    justify-content: center !important;
-    width: 30% !important;
+    
+    width: 22% !important;
     height: 400px !important;
     min-width: 100px;
-    color: #111;
-    box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.856)!important;
+  
+    box-shadow: 0 0 25px 0 rgba(123, 231, 61, 0.856)!important;
     
 }
+.card-abt h1{
+    margin-bottom: 5px;
+    color: #0f0;
 
+}
+.card-abt p{
+    color: white;
+    font-size: 40px;
+    font-weight: 200;
+    margin-bottom: 5px;
+    padding-top: 10px;
+    font-size: 15px;
+    font-family: 'Ubuntu', sans-serif;
+}
 .container{
     z-index: 100;
     display: flex;
@@ -425,6 +438,13 @@ section1{
     padding-top: 100px;
     padding: 35px;
 
+}
+.abt-link{
+    padding: 5px;
+    background-color: #0f0;
+    border-radius: 15px;
+    text-decoration: none;
+    color: #111;
 }
 .content-section{
     display: flex;
@@ -561,7 +581,7 @@ footer .container1 h2:before
     left: 0;
     width: 50px;
     height: 2px;
-    background: #f00;
+    background: #0f0;
 }
 footer p{
     color: white;
@@ -585,7 +605,7 @@ footer p{
     border-radius: 4px;
 }
 .sci li a:hover{
-    background: #f00;
+    background: #0f0;
 }
 .sci li a .fa{
     color: #fff;
