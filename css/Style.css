@@ -106,7 +106,7 @@ section .row{
 }
 i{
     z-index: 0;
-    color: rgba(109, 102, 102, 0.5);
+    color: rgba(109, 102, 102, 0.219);
     transition: 1s;
     padding: 0 5px;
     user-select: none;
