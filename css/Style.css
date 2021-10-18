@@ -104,6 +104,7 @@ section .row{
     top: -45% !important;
     transform: rotate(-30deg);
 }
+
 i{
     z-index: 0;
     color: rgba(109, 102, 102, 0.219);
