@@ -28,7 +28,7 @@
     .burger:hover{
         background-color: #0f0;
     }
-    section:hover .row i{
+    section .row:hover i{
         color: #0f0;
         text-shadow: 0 0 100px #0f0;
     }
