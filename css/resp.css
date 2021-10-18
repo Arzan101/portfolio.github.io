@@ -28,9 +28,9 @@
     .burger:hover{
         background-color: #0f0;
     }
-    section .row:hover i{
+    section:hover .row i{
         color: #0f0;
-        text-shadow: 0 0 120px #0f0;
+        text-shadow: 0 0 100px #0f0;
     }
     .h-nav-resp{
         
