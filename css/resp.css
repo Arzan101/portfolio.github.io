@@ -24,6 +24,7 @@
         display: block;
         border-radius: 25px;
         padding: 10px;
+        background-color: rgba(255 246 246 / 31%);
     }
     .burger:hover{
         background-color: #0f0;
@@ -64,6 +65,7 @@
         margin: auto;
         padding-top: 10%;
     }
+    
     .card-abt h1{
         font-size: 30px;
         margin-bottom: 10px;
