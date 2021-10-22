@@ -1,4 +1,8 @@
 @media only screen and (max-width:1300px){
+    ::-webkit-scrollbar{
+        display: none;
+        
+    }
     .nav-list{
         flex-direction: column;
     }
